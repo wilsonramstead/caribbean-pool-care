@@ -434,20 +434,6 @@ a{color:var(--aqua-dk);text-decoration:none}
 .footer-bottom a{color:#a9cdd4}
 .footer-bottom a:hover{color:var(--gold)}
 
-/* ---------- mobile call bar ---------- */
-.callbar{
-  position:fixed;left:0;right:0;bottom:0;z-index:80;
-  display:none;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));
-  background:rgba(255,255,255,.96);backdrop-filter:blur(10px);
-  border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(8,58,69,.1);
-}
-.cb-btn{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  padding:14px;border-radius:999px;font-family:'Questrial',sans-serif;font-size:1rem}
-.cb-btn svg{width:19px;height:19px}
-.cb-call{background:var(--coral);color:#fff}
-.cb-text{background:var(--cream);color:var(--aqua-deep);border:1px solid var(--line)}
-@media(max-width:720px){.callbar{display:flex}body{padding-bottom:76px}}
-
 /* ---------- reveal motion ---------- */
 .reveal{opacity:0;transform:translateY(26px) scale(.975);filter:blur(7px);
   transition:opacity .8s var(--ease),transform .8s var(--ease),filter .8s var(--ease)}
